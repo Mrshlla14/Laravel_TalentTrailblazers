@@ -1,0 +1,174 @@
+/* Reset CSS */
+body, h1, h2, h3, h4, h5, h6, p, a, img, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* General Styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;  /* Warna biru tua */
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #34495e;  /* Warna biru tua yang lebih gelap */
+}
+
+.logo img {
+    border-block-start-width: 300%;
+}
+
+/* Main Styles */
+main {
+    padding: 45px;
+}
+
+.jumbotron {
+    background-color: #2c3e50;  /* Warna biru tua */
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.jumbotron h1 {
+    margin-bottom: 20px;
+}
+
+.cards-categories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-login {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #e0e0e0;  /* Warna abu-abu */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-login h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2c3e50;  /* Warna biru tua */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-login button:hover {
+    background-color: #34495e;  /* Warna biru tua yang lebih gelap */
+}
+
+.form-login a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2c3e50;  /* Warna biru tua */
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;  /* Warna biru tua */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* CSS untuk carousel */
+        .carousel-container {
+            max-width: 200px;
+            /* Atur lebar maksimum sesuai kebutuhan Anda */
+            margin: 0 auto;
+            /* Ini akan membuat container berada di tengah */
+            overflow: hidden;
+            position: relative;
+            /* Tambahkan ini */
+        }
+        .carousel-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height:40px;
+            background-color: rgb(255, 255, 255);
+            color: #000000;
+            font-size: 24px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            z-index: 2;
+        }
+        .arrow-left {
+            left: 490px;
+            /* Sesuaikan posisi panah kiri */
+        }
+        .arrow-right {
+            right: 490px;
+            /* Sesuaikan posisi panah kanan */
+        }
