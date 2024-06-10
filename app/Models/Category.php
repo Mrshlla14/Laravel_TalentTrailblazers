@@ -13,5 +13,10 @@ class Category extends Model
     public $incrementing = true;
     protected $fillable = ['nama', 'tipe', 'harga'];
     public $timestamps = false;
+    public function transaction()
+    {
+        return $this->hasMany(Transaction::class, 'category_id', 'id_categories');
+    }
+
 }
 

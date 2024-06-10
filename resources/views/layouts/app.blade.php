@@ -34,6 +34,11 @@
 					sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
 				} else sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
 			};
+      function showDetails(nama, kategori, harga, tanggal, status) {
+         let nomorhp = event.target.getAttribute('data-nomorhp');
+         alert(`Nama: ${nama}\nKategori: ${kategori}\nHarga: ${harga}\nNomor HP: ${nomorhp}\nTanggal: ${tanggal}\nStatus: ${status}`);
+      }
+
   </script>
 </body>
 
